@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import CounterApp from './CounterApp.jsx'
-import CounterApp from './counterApp'
+import CounterApp from './CounterClass'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -9,3 +9,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <CounterApp />
   </React.StrictMode>,
 )
+
