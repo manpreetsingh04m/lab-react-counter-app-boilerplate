@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import CounterApp from './counterApp.jsx'
+// import CounterApp from './CounterApp.jsx'
+import CounterApp from './counterApp'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
